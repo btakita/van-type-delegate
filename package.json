@@ -1,0 +1,11 @@
+{
+  "name": "van-type-delegate",
+  "version": "0.0.0",
+  "description": "A library of typescript types to support delegating to vanjs-core, mini-van, van-plate",
+  "type": "module",
+  "types": "src/index.d.ts",
+  "dependencies": {
+    "mini-van-plate": "^0.5.3",
+    "vanjs-core": "^1.2.6"
+  }
+}
