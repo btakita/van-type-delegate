@@ -57,12 +57,7 @@ export type ChildDom<V extends VanShape> =
 			: PlateChildDom
 export type AddFunc<V extends VanShape> = V['add']
 export type TagFunc<V extends VanShape, TagName extends keyof V['tags'] = keyof V['tags']> =
-	(first?:Props | ChildDom<V>, ...rest: readonly ChildDom<V>[]) =>
-		V extends CoreVan
-		? ReturnType<V['tags'][TagName]>
-		: V extends MiniVan
-				? ReturnType<V['tags'][TagName]>
-				: ReturnType<V['tags'][TagName]>
+	(first?:Props | ChildDom<V>, ...rest: readonly ChildDom<V>[]) => ChildDom<V>
 export type Tags<V extends VanShape> = Record<keyof V['tags'], TagFunc<V>>
 export type TagsNSFunc<V extends VanShape> = V['tagsNS']
 export type CommonVan = {

@@ -5,8 +5,12 @@ types to infer the type in the correct van library.
 
 ## Under Development
 
-This project is under development in a personal project. It is currently a git submodule in the `vendor` directory 
-in the [btakita/briantakita.me-dev](https://github.com/btakita/briantakita.me-dev) monorepo.
+This project is under development in a personal project.
+
+<p style="display: none;">
+  It is currently a git submodule in the `vendor` directory in the
+  [btakita/briantakita.me-dev](https://github.com/btakita/briantakita.me-dev) monorepo. Right now it's on my dev machine
+</p>
 
 When I am satisfied with it's usage, I will release this as an npm package.
 
