@@ -58,7 +58,7 @@ export type PlateTags = Readonly<Record<string, PlateTagFunc>>
 export type StateVal<S extends State<unknown>> =
 	S extends State<infer V>
 		? V
-		: never
+		: any
 export type ValidChildDomValue<V extends VanShape> = (
 	CoreValidChildDomValue|MiniValidChildDomValue<Element, Text>|PlateValidChildDomValue
 	)&V extends CoreVan

@@ -1,5 +1,11 @@
 # van-type-delegate
 
+## 1.1.1
+
+### Patch Changes
+
+- StateVal: fix: inference
+
 ## 1.1.0
 
 ### Minor Changes
