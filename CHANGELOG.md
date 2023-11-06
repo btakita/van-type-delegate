@@ -1,5 +1,14 @@
 # van-type-delegate
 
+## 1.1.0
+
+### Minor Changes
+
+- generics: state_T extends State<unknown> = State<any>: fix: type inference:
+
+      be_derive_pair__new
+      be_state_triple__new
+
 ## 1.0.0
 
 ### Major Changes
