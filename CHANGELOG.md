@@ -1,5 +1,15 @@
 # van-type-delegate
 
+## 1.2.4
+
+### Patch Changes
+
+- package.json: files:
+
+      *.d.ts
+      *.js
+      *.json
+
 ## 1.2.3
 
 ### Patch Changes

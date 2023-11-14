@@ -1,10 +1,12 @@
 {
 	"name": "van-type-delegate",
-	"version": "1.2.3",
+	"version": "1.2.4",
 	"description": "A library of typescript types to support delegating to vanjs-core, mini-van, van-plate",
 	"type": "module",
 	"files": [
-		"*.d.ts"
+		"*.d.ts",
+		"*.js",
+		"*.json"
 	],
 	"types": "src/index.d.ts",
 	"scripts": {
