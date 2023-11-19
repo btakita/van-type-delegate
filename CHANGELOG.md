@@ -1,5 +1,11 @@
 # van-type-delegate
 
+## 1.2.7
+
+### Patch Changes
+
+- tsx: ^4.1.3 -> ^4.1.4
+
 ## 1.2.6
 
 ### Patch Changes
