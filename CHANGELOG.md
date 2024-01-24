@@ -1,5 +1,11 @@
 # van-type-delegate
 
+## 1.2.13
+
+### Patch Changes
+
+- vanjs-core: ^1.2.7 -> ^1.2.8
+
 ## 1.2.12
 
 ### Patch Changes
