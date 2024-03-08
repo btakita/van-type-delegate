@@ -18,7 +18,7 @@ import type {
 	TagFunc as PlateTagFunc,
 	ValidChildDomValue as PlateValidChildDomValue,
 	Van as PlateVan
-} from 'mini-van-plate/van-plate'
+} from 'mini-van-plate/src/van-plate'
 import type {
 	BindingFunc as CoreBindingFunc,
 	ChildDom as CoreChildDom,
