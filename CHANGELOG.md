@@ -1,5 +1,11 @@
 # van-type-delegate
 
+## 1.3.0
+
+### Minor Changes
+
+- - TagsNSFunc
+
 ## 1.2.16
 
 ### Patch Changes

@@ -18,8 +18,7 @@ import type {
 	TagFunc as PlateTagFunc,
 	ValidChildDomValue as PlateValidChildDomValue,
 	Van as PlateVan
-// @ts-ignore
-} from 'mini-van-plate/src/van-plate'
+} from 'mini-van-plate/van-plate'
 import type {
 	BindingFunc as CoreBindingFunc,
 	ChildDom as CoreChildDom,
@@ -59,7 +58,7 @@ export type PlateTags = Readonly<Record<string, PlateTagFunc>>
 export type StateVal<S extends State<unknown>> =
 	S extends State<infer V>
 		? V
-		: any
+		: unknown
 export type ValidChildDomValue<V extends VanShape> = (
 	CoreValidChildDomValue|MiniValidChildDomValue<Element, Text>|PlateValidChildDomValue
 	)&V extends CoreVan
@@ -96,12 +95,6 @@ export type Tags<V extends VanShape> =
 		: V extends MiniVan
 			? Record<keyof MiniVan['tags'], TagFunc<MiniVan>>
 			: Record<keyof PlateVan['tags'], TagFunc<PlateVan>>
-export type TagsNSFunc<V extends VanShape> =
-	V extends CoreVan
-		? CoreVan['tagsNS']
-		: V extends MiniVan
-			? MiniVan['tagsNS']
-			: PlateVan['tagsNS']
 export type CommonVan = {
 	readonly state:<T>(initVal:T)=>State<T>
 	readonly val:<T>(s:T|StateView<T>)=>T
