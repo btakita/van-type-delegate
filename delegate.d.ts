@@ -18,7 +18,6 @@ import type {
 	TagFunc as PlateTagFunc,
 	ValidChildDomValue as PlateValidChildDomValue,
 	Van as PlateVan
-	// @ts-expect-error issue with mini-van-plate exports
 } from 'mini-van-plate/src/van-plate'
 import type {
 	BindingFunc as CoreBindingFunc,
