@@ -1,5 +1,11 @@
 # van-type-delegate
 
+## 1.3.5
+
+### Patch Changes
+
+- package.json: author: url,email
+
 ## 1.3.4
 
 ### Patch Changes
