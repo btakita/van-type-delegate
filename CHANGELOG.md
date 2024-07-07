@@ -1,5 +1,11 @@
 # van-type-delegate
 
+## 1.3.6
+
+### Patch Changes
+
+- mini-van-plate: ^0.5.6 -> ^0.5.7
+
 ## 1.3.5
 
 ### Patch Changes
