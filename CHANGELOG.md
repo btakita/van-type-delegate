@@ -1,5 +1,11 @@
 # van-type-delegate
 
+## 1.3.11
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+
 ## 1.3.10
 
 ### Patch Changes
